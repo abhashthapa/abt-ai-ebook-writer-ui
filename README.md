@@ -1,19 +1,23 @@
-# ABT E-Book Generator UI
+# ABT E-Book Writer UI
 
-This project is a GUI application for generating e-books using OpenAI's GPT-4o, Dall-E 3 and Tavily API.
+This project is a GUI Python application for creating e-books using AI agents. It generates table of content, content, designs cover pages for the book and each chapters, and exports into separate and merged MD and PDF files.
+
+**Being a non-programmer, I used [Cursor](https://www.cursor.com/) and gpt-4o to produce this script.**
+
 
 ## Features
 
-- Generate e-books with table of contents, chapters and images.
+- Generate e-books with table of contents, chapters and images using AI(OpenAI).
 - Review and edit the Table of Contents.
 - Edit the final content through simple Markdown editor.
 - Save the final content as a Markdown file.
 
+ 
 ## Setup
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/ebook-generator.git
+   git clone https://github.com/abhashthapa/abt-ai-ebook-writer-ui.git
    cd ebook-generator
    ```
 
