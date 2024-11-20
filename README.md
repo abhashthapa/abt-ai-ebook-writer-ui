@@ -1,4 +1,4 @@
-# ABT E-Book Generator UI
+# ABT E-Book Writer UI
 
 This project is a GUI Python application for creating e-books using AI agents. It generates table of content, content, designs cover pages for the book and each chapters, and exports into separate and merged MD and PDF files.
 
