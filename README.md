@@ -13,7 +13,7 @@ This project is a GUI application for generating e-books using OpenAI's GPT-4o, 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/ebook-generator.git
+   git clone https://github.com/abhashthapa/abt-ai-ebook-writer-ui.git
    cd ebook-generator
    ```
 
