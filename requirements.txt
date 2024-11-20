@@ -24,8 +24,6 @@ chromadb==0.5.18
 click==8.1.7
 cohere==5.11.3
 coloredlogs==15.0.1
-crewai==0.80.0
-crewai-tools==0.14.0
 cryptography==43.0.3
 dataclasses-json==0.6.7
 datasets==3.1.0
@@ -165,7 +163,6 @@ pydub==0.25.1
 Pygments==2.18.0
 PyJWT==2.9.0
 pylance==0.19.1
-PyMuPDF==1.24.2
 PyMuPDFb==1.24.1
 pypdf==5.1.0
 PyPDF2==3.0.1
