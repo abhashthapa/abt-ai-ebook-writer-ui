@@ -18,7 +18,7 @@ This project is a GUI Python application for creating e-books using AI agents. I
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/abhashthapa/abt-ai-ebook-writer-ui.git
-   cd ebook-generator
+   cd abt-ai-ebook-writer-ui
    ```
 
 2. **Create a virtual environment and activate it**:
