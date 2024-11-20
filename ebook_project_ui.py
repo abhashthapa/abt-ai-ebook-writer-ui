@@ -185,7 +185,7 @@ class EBookGeneratorApp:
         # Action Buttons
         button_frame = ttk.Frame(self.final_content_frame)
         button_frame.pack(pady=5)
-        ttk.Button(button_frame, text="Save as Markdown", command=self.save_as_markdown).pack(side=tk.LEFT, padx=5)
+        ttk.Button(button_frame, text="Download as MD", command=self.download_as_md).pack(side=tk.LEFT, padx=5)
 
     def add_toolbar_button(self, parent, text, command):
         ttk.Button(parent, text=text, command=command).pack(side=tk.LEFT, padx=2)
@@ -366,6 +366,26 @@ class EBookGeneratorApp:
             messagebox.showinfo("Success", f"File saved successfully at {file_path}")
         except Exception as e:
             messagebox.showerror("Error", f"Failed to save file: {e}")
+
+    def download_as_md(self):
+        # Use the sanitized book name for the markdown file
+        book_name = sanitize_filename(self.topic_entry.get().strip())
+        file_path = os.path.join(self.book_folder, f"{book_name}.md")
+        
+        # Check if file already exists and append a number if necessary
+        base_file_path = file_path
+        counter = 1
+        while os.path.exists(file_path):
+            file_path = os.path.join(self.book_folder, f"{book_name}_{counter:02}.md")
+            counter += 1
+
+        content = self.content_text_area.get("1.0", tk.END)
+        try:
+            with open(file_path, 'w', encoding='utf-8') as f:
+                f.write(content)
+            messagebox.showinfo("Success", f"File downloaded successfully as {file_path}")
+        except Exception as e:
+            messagebox.showerror("Error", f"Failed to download file: {e}")
 
     def update_status(self, message, progress):
         self.status_label.config(text=f"Status: {message}")
