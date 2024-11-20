@@ -10,8 +10,18 @@ This project is a GUI Python application for creating e-books using AI agents. I
 - Generate e-books with table of contents, chapters and images using AI(OpenAI).
 - Review and edit the Table of Contents.
 - Edit the final content through simple Markdown editor.
-- Save the final content as a Markdown file.
+- Save the final content as a Markdown file. Exporting PDF is not supported yet.
 
+https://github.com/user-attachments/assets/1c3f5b11-ee40-4a6f-a4b0-7eeb0ac4c061
+
+<sup>50x speed, total generation duration: ~9mins</sup>
+
+📖 Sample ebook generated
+
+[Color Voyages Exploring the Psychology of Palettes.pdf](https://github.com/user-attachments/files/17831833/Color.Voyages.Exploring.the.Psychology.of.Palettes.pdf)
+
+
+---
  
 ## Setup
 
