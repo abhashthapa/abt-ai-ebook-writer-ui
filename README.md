@@ -13,8 +13,7 @@ This project is a GUI Python application for creating e-books using AI agents. I
 
 **Being a non-programmer, I used [Cursor](https://www.cursor.com/) and gpt-4o to produce this script.**
 
-
-- 
+ 
 ## Setup
 
 1. **Clone the repository**:
